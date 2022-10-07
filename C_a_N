@@ -125,7 +125,7 @@ while True:
                 break
             else:
                 print("Поле занято, попробуйте другое")
-        print(print_matrix())
+        
     if tie_check(matrix) or final_win(win_check, win_check_x) or final_win(win_check, win_check_o):
         if final_win(win_check, win_check_x):
             print(f"Игрок {player_1} победил!")
